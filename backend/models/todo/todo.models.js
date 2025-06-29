@@ -17,7 +17,7 @@ const todoSchema = new mongoose.Schema({
     },
     subTodo: [
         {
-            type: mongoose.Schema.Types.ObjectId
+            type: mongoose.Schema.Types.ObjectId,
             ref : "subTodo"
         }
     ]
